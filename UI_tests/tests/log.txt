@@ -1,0 +1,175 @@
+2020-06-06 11:16:43,959 || UI_tests.conftest || ====================Start Setup Activity====================
+2020-06-06 11:16:43,960 || UI_tests.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-06 11:16:49,911 || UI_tests.pages.listener || I`m on: http://localhost/admin
+2020-06-06 11:16:49,911 || UI_tests.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-06 11:16:49,928 || UI_tests.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-06 11:16:50,011 || UI_tests.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-06 11:16:50,019 || UI_tests.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-06 11:16:50,090 || UI_tests.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-06 11:16:50,098 || UI_tests.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-06 11:16:50,114 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="efb6db57-9fb5-4441-9faa-fd1a49a5ffb0")>
+2020-06-06 11:16:51,877 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="efb6db57-9fb5-4441-9faa-fd1a49a5ffb0")>
+2020-06-06 11:16:51,885 || UI_tests.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-06 11:16:51,894 || UI_tests.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-06 11:16:51,913 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="6e0c96c7-3a96-4be3-9718-548c5552c8e8")>
+2020-06-06 11:16:52,250 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="6e0c96c7-3a96-4be3-9718-548c5552c8e8")>
+2020-06-06 11:16:52,250 || UI_tests.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-06 11:16:52,262 || UI_tests.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-06 11:16:52,778 || UI_tests.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-06 11:16:52,789 || UI_tests.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-06 11:16:52,814 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="4ee9b85d-6106-4e2a-92b2-6c85027cc452")>
+2020-06-06 11:16:53,397 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="4ee9b85d-6106-4e2a-92b2-6c85027cc452")>
+2020-06-06 11:16:53,397 || UI_tests.conftest || ====================End Setup Activity====================
+2020-06-06 11:16:53,398 || test_settings_page || ====================Start "test_rebuild_tab"====================
+2020-06-06 11:16:53,399 || UI_tests.pages.listener || I`m looking for: "[data-original-title="Rebuild"]" BY: "css selector"
+2020-06-06 11:16:53,413 || UI_tests.pages.listener || I`ve found "[data-original-title="Rebuild"]" BY "css selector"
+2020-06-06 11:16:53,433 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="2ca8b218-bc0a-4594-bab2-1e6f05155a34")>
+2020-06-06 11:16:53,898 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="f981f38fd4d8857e2a967cb8c7483b73", element="2ca8b218-bc0a-4594-bab2-1e6f05155a34")>
+2020-06-06 11:16:53,898 || UI_tests.pages.listener || I`m executing "console.error('Here is the ERROR message!')"
+2020-06-06 11:16:53,906 || UI_tests.pages.listener || I've executed 'console.error('Here is the ERROR message!')'
+2020-06-06 11:16:53,906 || UI_tests.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-06 11:16:53,919 || UI_tests.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-06 11:16:53,919 || test_settings_page || ====================End "test_rebuild_tab"====================
+2020-06-06 11:16:53,922 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431410192}
+2020-06-06 11:16:53,922 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431411884}
+2020-06-06 11:16:53,922 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'console-api 2:32 "Here is the ERROR message!"', 'source': 'console-api', 'timestamp': 1591431413905}
+2020-06-06 11:16:56,071 || UI_tests.pages.listener || WASTED!!!
+2020-06-06 11:16:59,535 || UI_tests.conftest || ====================Start Setup Activity====================
+2020-06-06 11:16:59,535 || UI_tests.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-06 11:17:00,716 || UI_tests.pages.listener || I`m on: http://localhost/admin
+2020-06-06 11:17:00,716 || UI_tests.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-06 11:17:00,729 || UI_tests.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-06 11:17:00,814 || UI_tests.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-06 11:17:00,827 || UI_tests.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-06 11:17:00,915 || UI_tests.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-06 11:17:00,926 || UI_tests.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-06 11:17:00,944 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="c30b10e4f4018e09ec987458555de108", element="98b41ec8-3462-4670-81cd-74ea8d787915")>
+2020-06-06 11:17:01,724 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="c30b10e4f4018e09ec987458555de108", element="98b41ec8-3462-4670-81cd-74ea8d787915")>
+2020-06-06 11:17:01,746 || UI_tests.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-06 11:17:01,758 || UI_tests.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-06 11:17:01,780 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="c30b10e4f4018e09ec987458555de108", element="135c2f79-2ffe-4139-9805-a326f2932b9f")>
+2020-06-06 11:17:01,830 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="c30b10e4f4018e09ec987458555de108", element="135c2f79-2ffe-4139-9805-a326f2932b9f")>
+2020-06-06 11:17:01,830 || UI_tests.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-06 11:17:01,842 || UI_tests.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-06 11:17:01,864 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="c30b10e4f4018e09ec987458555de108", element="7b323e34-baa7-4184-ab31-edb53f165880")>
+2020-06-06 11:17:02,028 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="c30b10e4f4018e09ec987458555de108", element="7b323e34-baa7-4184-ab31-edb53f165880")>
+2020-06-06 11:17:02,028 || UI_tests.conftest || ====================End Setup Activity====================
+2020-06-06 11:17:02,029 || test_settings_page || ====================Start "test_categories_tab_is_present"====================
+2020-06-06 11:17:02,029 || UI_tests.pages.listener || I`m looking for: ".table-responsive tr" BY: "css selector"
+2020-06-06 11:17:02,045 || UI_tests.pages.listener || I`ve found ".table-responsive tr" BY "css selector"
+2020-06-06 11:17:02,045 || test_settings_page || ====================End "test_categories_tab_is_present"====================
+2020-06-06 11:17:02,077 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431420751}
+2020-06-06 11:17:02,078 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431421740}
+2020-06-06 11:17:04,247 || UI_tests.pages.listener || WASTED!!!
+2020-06-06 11:17:07,306 || UI_tests.conftest || ====================Start Setup Activity====================
+2020-06-06 11:17:07,306 || UI_tests.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-06 11:17:08,092 || UI_tests.pages.listener || I`m on: http://localhost/admin
+2020-06-06 11:17:08,092 || UI_tests.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-06 11:17:08,104 || UI_tests.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-06 11:17:08,185 || UI_tests.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-06 11:17:08,194 || UI_tests.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-06 11:17:08,275 || UI_tests.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-06 11:17:08,284 || UI_tests.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-06 11:17:08,302 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="f8d616ea-d46f-4e1d-9292-f06edae75684")>
+2020-06-06 11:17:09,003 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="f8d616ea-d46f-4e1d-9292-f06edae75684")>
+2020-06-06 11:17:09,012 || UI_tests.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-06 11:17:09,024 || UI_tests.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-06 11:17:09,048 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="5f57343e-d1a3-4efb-9ec0-90ad159856c9")>
+2020-06-06 11:17:09,092 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="5f57343e-d1a3-4efb-9ec0-90ad159856c9")>
+2020-06-06 11:17:09,092 || UI_tests.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-06 11:17:09,102 || UI_tests.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-06 11:17:09,614 || UI_tests.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-06 11:17:09,624 || UI_tests.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-06 11:17:09,649 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="2c0db1f6-f379-46b7-9039-203e2bca33c4")>
+2020-06-06 11:17:09,850 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="2c0db1f6-f379-46b7-9039-203e2bca33c4")>
+2020-06-06 11:17:09,851 || UI_tests.conftest || ====================End Setup Activity====================
+2020-06-06 11:17:09,852 || test_settings_page || ====================Start "test_add_category"====================
+2020-06-06 11:17:09,852 || UI_tests.pages.listener || I`m looking for: "[data-original-title="Add New"]" BY: "css selector"
+2020-06-06 11:17:09,867 || UI_tests.pages.listener || I`ve found "[data-original-title="Add New"]" BY "css selector"
+2020-06-06 11:17:09,885 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="3b79151b-1822-4762-b438-a64827a07094")>
+2020-06-06 11:17:10,668 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="3b79151b-1822-4762-b438-a64827a07094")>
+2020-06-06 11:17:10,668 || UI_tests.pages.listener || I`m looking for: "[href="#tab-general"]" BY: "css selector"
+2020-06-06 11:17:10,679 || UI_tests.pages.listener || I`ve found "[href="#tab-general"]" BY "css selector"
+2020-06-06 11:17:10,699 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="3b44dc4e-1691-4d5d-9c45-2469709037dc")>
+2020-06-06 11:17:10,735 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="3b44dc4e-1691-4d5d-9c45-2469709037dc")>
+2020-06-06 11:17:10,735 || UI_tests.pages.listener || I`m looking for: "#input-name1" BY: "css selector"
+2020-06-06 11:17:10,744 || UI_tests.pages.listener || I`ve found "#input-name1" BY "css selector"
+2020-06-06 11:17:10,830 || UI_tests.pages.listener || I`m looking for: "#input-meta-title1" BY: "css selector"
+2020-06-06 11:17:10,840 || UI_tests.pages.listener || I`ve found "#input-meta-title1" BY "css selector"
+2020-06-06 11:17:10,918 || UI_tests.pages.listener || I`m looking for: "[data-original-title="Save"]" BY: "css selector"
+2020-06-06 11:17:10,926 || UI_tests.pages.listener || I`ve found "[data-original-title="Save"]" BY "css selector"
+2020-06-06 11:17:10,944 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="d179ecf4-1c77-41db-afc2-78fe62c3e63f")>
+2020-06-06 11:17:11,681 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="2a8538ac9dadf6f3fb70b429335bfb62", element="d179ecf4-1c77-41db-afc2-78fe62c3e63f")>
+2020-06-06 11:17:11,681 || UI_tests.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-06 11:17:11,694 || UI_tests.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-06 11:17:11,694 || test_settings_page || ====================End "test_add_category"====================
+2020-06-06 11:17:11,702 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431428109}
+2020-06-06 11:17:11,702 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431429005}
+2020-06-06 11:17:13,839 || UI_tests.pages.listener || WASTED!!!
+2020-06-06 11:17:17,063 || UI_tests.conftest || ====================Start Setup Activity====================
+2020-06-06 11:17:17,063 || UI_tests.pages.listener || I`m navigate to: http://localhost/admin
+2020-06-06 11:17:18,421 || UI_tests.pages.listener || I`m on: http://localhost/admin
+2020-06-06 11:17:18,421 || UI_tests.pages.listener || I`m looking for: "[name="username"]" BY: "css selector"
+2020-06-06 11:17:18,433 || UI_tests.pages.listener || I`ve found "[name="username"]" BY "css selector"
+2020-06-06 11:17:18,511 || UI_tests.pages.listener || I`m looking for: "[name="password"]" BY: "css selector"
+2020-06-06 11:17:18,520 || UI_tests.pages.listener || I`ve found "[name="password"]" BY "css selector"
+2020-06-06 11:17:18,605 || UI_tests.pages.listener || I`m looking for: "[type="submit"]" BY: "css selector"
+2020-06-06 11:17:18,615 || UI_tests.pages.listener || I`ve found "[type="submit"]" BY "css selector"
+2020-06-06 11:17:18,633 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="1058a815-ad1f-4f07-92a8-ba8370cabc77")>
+2020-06-06 11:17:19,863 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="1058a815-ad1f-4f07-92a8-ba8370cabc77")>
+2020-06-06 11:17:19,877 || UI_tests.pages.listener || I`m looking for: "[href="#collapse1"]" BY: "css selector"
+2020-06-06 11:17:19,886 || UI_tests.pages.listener || I`ve found "[href="#collapse1"]" BY "css selector"
+2020-06-06 11:17:19,910 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="7084da92-7a0b-459e-b0c0-b6b67accf735")>
+2020-06-06 11:17:19,967 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="7084da92-7a0b-459e-b0c0-b6b67accf735")>
+2020-06-06 11:17:19,968 || UI_tests.pages.listener || I`m looking for: "#collapse1 > li:nth-child(1) > a" BY: "css selector"
+2020-06-06 11:17:19,980 || UI_tests.pages.listener || I`ve found "#collapse1 > li:nth-child(1) > a" BY "css selector"
+2020-06-06 11:17:20,001 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="10708858-0960-4aca-b6eb-68a8ff7526ad")>
+2020-06-06 11:17:20,413 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="10708858-0960-4aca-b6eb-68a8ff7526ad")>
+2020-06-06 11:17:20,413 || UI_tests.conftest || ====================End Setup Activity====================
+2020-06-06 11:17:20,414 || test_settings_page || ====================Start "test_edit_category_by_name"====================
+2020-06-06 11:17:20,414 || UI_tests.pages.listener || I`m looking for: ".table-responsive tr" BY: "css selector"
+2020-06-06 11:17:20,429 || UI_tests.pages.listener || I`ve found ".table-responsive tr" BY "css selector"
+2020-06-06 11:17:20,608 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,617 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,628 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,638 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,648 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,657 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,668 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,678 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,690 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,699 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,709 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,719 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,730 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,740 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,750 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,760 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,770 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,781 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,793 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,802 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,814 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,824 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,835 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,844 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,855 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,864 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,875 || UI_tests.pages.listener || I`m looking for: "tr td:nth-child(2)" BY: "css selector"
+2020-06-06 11:17:20,884 || UI_tests.pages.listener || I`ve found "tr td:nth-child(2)" BY "css selector"
+2020-06-06 11:17:20,895 || UI_tests.pages.listener || I`m looking for: "[data-original-title="Edit"]" BY: "css selector"
+2020-06-06 11:17:20,904 || UI_tests.pages.listener || I`ve found "[data-original-title="Edit"]" BY "css selector"
+2020-06-06 11:17:20,904 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="35de01ed-5882-4cb3-acbe-94708a385295")>
+2020-06-06 11:17:24,562 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="35de01ed-5882-4cb3-acbe-94708a385295")>
+2020-06-06 11:17:24,562 || UI_tests.pages.listener || I`m looking for: "#input-name1" BY: "css selector"
+2020-06-06 11:17:24,573 || UI_tests.pages.listener || I`ve found "#input-name1" BY "css selector"
+2020-06-06 11:17:24,710 || UI_tests.pages.listener || I`m looking for: "[data-original-title="Save"]" BY: "css selector"
+2020-06-06 11:17:24,722 || UI_tests.pages.listener || I`ve found "[data-original-title="Save"]" BY "css selector"
+2020-06-06 11:17:24,741 || UI_tests.pages.listener || I`m clicking: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="fd67a00f-3cb0-4eec-a918-012c5ec7d561")>
+2020-06-06 11:17:25,768 || UI_tests.pages.listener || I`ve clicked: <selenium.webdriver.remote.webelement.WebElement (session="91a267da01c3ac46f9345a9ef51166b7", element="fd67a00f-3cb0-4eec-a918-012c5ec7d561")>
+2020-06-06 11:17:25,768 || UI_tests.pages.listener || I`m looking for: ".alert-success" BY: "css selector"
+2020-06-06 11:17:25,777 || UI_tests.pages.listener || I`ve found ".alert-success" BY "css selector"
+2020-06-06 11:17:25,777 || test_settings_page || ====================End "test_edit_category_by_name"====================
+2020-06-06 11:17:25,780 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431438534}
+2020-06-06 11:17:25,780 || UI_tests.pages.listener || {'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1591431439869}
+2020-06-06 11:17:29,932 || UI_tests.pages.listener || WASTED!!!
